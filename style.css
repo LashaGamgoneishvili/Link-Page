@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&family=Righteous&family=Yellowtail&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.madimi-one-regular {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Madimi";
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(./background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main {
+  color: #fff;
+  margin-top: 110px;
+  text-align: center;
+  /* background-image: url("./bluer2.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.main h1 {
+  font-size: 95px;
+  margin-bottom: 10px;
+}
+
+a {
+  font-size: 35px;
+  padding: 5px;
+  text-decoration: none;
+  color: #5222ef;
+  background-color: #03e9f4;
+  border-radius: 8px;
+  transition: 0.3s ease all;
+}
+.codesandbox-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+a:hover {
+  /* -webkit-box-reflect: below 1px linear gradiernt (transparent, #005); */
+  box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4, 0 0 25px #03e9f4,
+    0 0 100px #03e9f4;
+  background-color: #03e9f4;
+}
