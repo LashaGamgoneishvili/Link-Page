@@ -24,7 +24,7 @@ body {
 
 .main {
   color: #fff;
-  margin-top: 10px;
+  margin-top: 80px;
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -32,12 +32,12 @@ body {
 }
 
 .main h1 {
-  font-size: 95px;
+  font-size: 75px;
   margin-bottom: 10px;
 }
 
 a {
-  font-size: 35px;
+  font-size: 25px;
   padding: 5px;
   text-decoration: none;
   color: #5222ef;
