@@ -25,7 +25,7 @@ body {
 .main {
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 40px;
   color: #fff;
   margin-top: 80px;
   text-align: center;
